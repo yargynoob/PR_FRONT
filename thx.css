@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500..900;1,500..900&display=swap');
+
+* {
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+.modal {
+    position: absolute;
+    width: 600px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid black;
+;
+}
+
+.heading h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    margin: 40px 50px 40px 50px;
+    text-align: center;
+    color: #222222;
+}
